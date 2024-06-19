@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color:black;
+    text-align: center;
+}
+main{
+    margin-top: 2rem;
+    font-size: 20px;
+    text-align: center;
+    h1{
+        margin-left:4rem;
+        /* box-shadow: 0 0 1rem rgb(1, 14, 1); */
+        color: white;
+    }
+}
+.container{
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+}
+.game{
+    margin-top: 1rem; 
+    width: 40vw;
+    height: 50vh;
+    display: grid;
+    gap: 0.5rem; 
+    grid-template-rows: repeat(3 , 1fr);
+    grid-template-columns: repeat(3 , 1fr);
+}
+   
+.box{
+    border: 1px black solid;
+    width: 15vw;
+    height: 15vh; 
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: 800;
+    background-color: white;
+    color: black;
+    /* FFDBDA; */
+    box-shadow: 0 0 1rem rgb(1, 14, 1);
+}
+.winner_box{
+    font-size: 40px;
+    /* margin-top: 15rem;
+    margin-bottom: 15rem; */
+    color: white;
+}
+#play_again{
+    height: 40px;
+    font-size: 20px;
+    border: black solid 3px;
+    border-radius: 5px;
+    color: white;
+    background-color:black;
+}
+.hide{
+    display: none;
+}
+.reset_box{
+   /* display: flex; */
+   margin: auto;
+   margin-left: 5rem;
+}
+#reset_game{
+    height: 40px;
+    font-size: 20px;
+    border: black solid 3px;
+    border-radius: 5px;
+    color: white;
+    background-color:black;
+}
